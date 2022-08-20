@@ -3,18 +3,17 @@ import requests
 import json
 import re
 
-session = requests.Session()
-
 class BingWallpaper:
 
     def __init__(self, base_url: str, headers: str, proxies: str) -> None:
         self.base_url = base_url
         self.headers = headers
         self.proxies = proxies
+        self.session = requests.Session()
 
     def get_image(self, url):
         try:
-            response = session.get(url, proxies = self.proxies, headers = self.headers)
+            response = self.session.get(url, proxies = self.proxies, headers = self.headers)
             if 200 == response.status_code:
                 data = json.loads(response.text)
                 return data['images'][0]
@@ -25,7 +24,7 @@ class BingWallpaper:
         if not os.path.exists(folder_path):
             os.makedirs(folder_path)
         try:
-            response = session.get(self.base_url + url_path, proxies = self.proxies, headers = self.headers)
+            response = self.session.get(self.base_url + url_path, proxies = self.proxies, headers = self.headers)
             if 200 == response.status_code:
                 file_name = re.search(r'(?<=id\=).*?(?=\.jpg)',url_path).group()
                 file_path = f'{folder_path}/{fullstartdate}_{file_name}.jpg'
