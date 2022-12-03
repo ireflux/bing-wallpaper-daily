@@ -9,3 +9,4 @@
 | 2022年8月 | [2022年8月图片归档](https://github.com/ireflux/bing-wallpaper-daily/tree/master/archive/202208) |
 | 2022年9月 | [2022年9月图片归档](https://github.com/ireflux/bing-wallpaper-daily/tree/master/archive/202209) |
 | 2022年10月 | [2022年10月图片归档](https://github.com/ireflux/bing-wallpaper-daily/tree/master/archive/202210) |
+| 2022年11月 | [2022年11月图片归档](https://github.com/ireflux/bing-wallpaper-daily/tree/master/archive/202211) |
