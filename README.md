@@ -8,4 +8,4 @@
 |:---:|:---:|
 | 2022年 | [2022年图片归档](https://github.com/ireflux/bing-wallpaper-daily/tree/master/archive/2022) |
 | 2023年 | [2023年图片归档](https://github.com/ireflux/bing-wallpaper-daily/tree/master/archive/2023) |
-
+| 2024年 | [2024年图片归档](https://github.com/ireflux/bing-wallpaper-daily/tree/master/archive/2024) |
